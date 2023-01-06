@@ -7,5 +7,17 @@ Content-Type: application/json
     "completed":true
 }
 
+####
+
 GET http://localhost:5500/api/items
 Content-Type: application/json
+
+####
+
+PUT http://localhost:5500/api/item/63b7957e873cefffd6490235
+Content-Type: application/json
+
+{
+    "item":"This is a todo item update",
+    "completed":false
+}
