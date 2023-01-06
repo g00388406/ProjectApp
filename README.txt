@@ -12,3 +12,10 @@ Step 10: Make an item title and boolean completed for yes or no
 Step 11: Install REST client extension to test database
 Step 12: Create req.REST file to test database
 Step 13: In req file, post URL, add information, and go to mongodb to see if it worked
+Step 14: Repeat this process for delete and update. CRUD is completed
+Step 15: Create a clientside folder and download app onto it now that functions are done 
+Step 16: Use App.js and App.css to design layout of the frontside
+Step 17: Add in the 'add todo item' function
+
+
+
