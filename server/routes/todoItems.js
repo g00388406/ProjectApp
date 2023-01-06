@@ -37,6 +37,17 @@ router.put('/api/item/:id', async (req, res)=>{
     }
 })
 
+//creating new route to delete todo list item
+router.delete('/api/item/:id', async (req, res) =>{
+    try {
+        //find item by id and delete it
+        const deleteItem = await todoItemsModel.findByIdAndDelete(req.params.id);
+        res.status(200).json("Item Successfully Deleted");
+    } catch (err) {
+        res.json(err);
+    }
+})
+
 
 //exporting
 module.exports = router;
