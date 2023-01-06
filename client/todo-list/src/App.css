@@ -77,3 +77,23 @@
   background-color: indianred;
   color: white;
 }
+
+.update-form{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.update-new-input{
+  width: 80%;
+  bordor-radius: 6px;
+  border: 1px solid white;
+  padding: 8px;
+  outline: none;
+}
+
+.update-new-btn{
+  background-color: lightseagreen;
+  color: white;
+  cursor: pointer;
+}
