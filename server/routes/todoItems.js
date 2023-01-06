@@ -7,7 +7,7 @@ const todoItemsModel = require('../models/todoItems');
 router.post('/api/item', async (req, res)=>{
     try {
         const newItem = new todoItemsModel({
-            item: req.body.item, completed: req.body.completed
+            item: req.body.item
         })
         //save this data to the database
         const saveItem = await newItem.save()
@@ -31,7 +31,7 @@ router.get('/api/items', async (req, res)=>{
 router.put('/api/item/:id', async (req, res)=>{
     try {
         //find item by id and update it
-        const updateItem = await todoItemsModel.findByIdAndUpdate(req.params.id, {$set: req.body, $set: req.body})
+        const updateItem = await todoItemsModel.findByIdAndUpdate(req.params.id, {$set: req.body})
     } catch (err) {
         res.json(err);
     }
