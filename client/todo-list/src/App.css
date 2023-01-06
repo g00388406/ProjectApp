@@ -18,6 +18,7 @@
   width: 100%;
   justify-content: space-between;
   display: flex;
+  margin-bottom: 12px;
 }
 
 .form input[type="text"]{
@@ -32,7 +33,7 @@
 }
 
 .form button[type="submit"]{
-  background-color: grey;
+  background-color: lightgreen;
   color: white;
   border: none;
   border-radius: 6px;
@@ -68,7 +69,7 @@
 }
 
 .update-item{
-  background-color: lightgreen;
+  background-color: lightsalmon;
   color: white;
 }
 

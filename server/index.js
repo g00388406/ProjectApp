@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv').config();
+const cors = require('cors');
 
 const app = express();
 
@@ -9,6 +10,9 @@ app.use(express.json());
 
 //getting the port from .env file
 const PORT = process.env.PORT;
+
+//using cors
+app.use(cors());
 
 //importing router
 const todoItemRoute = require('./routes/todoItems');
