@@ -16,6 +16,10 @@ Step 14: Repeat this process for delete and update. CRUD is completed
 Step 15: Create a clientside folder and download app onto it now that functions are done 
 Step 16: Use App.js and App.css to design layout of the frontside
 Step 17: Add in the 'add todo item' function
+Step 18: Add a list of all items in the database below the add bar
+Step 19: Add the delete function
+Step 20: Add the update function (not as optimal as I wanted but it works)
+Step 21: Fix up smaller details such as refreshing the page when an item is added or removed
 
 
 
